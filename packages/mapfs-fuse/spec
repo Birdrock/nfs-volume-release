@@ -1,0 +1,6 @@
+---
+name: mapfs-fuse
+
+files:
+- fuse/**
+- build-deps/**

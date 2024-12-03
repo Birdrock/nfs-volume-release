@@ -1,0 +1,24 @@
+---
+name: mapfs
+
+templates:
+  install.erb: bin/pre-start
+  mapfs.yml.erb: config/mapfs.yml
+
+packages:
+- mapfs
+- mapfs-fuse
+
+provides:
+- name: mapfs
+  type: mapfs
+  properties:
+  - path
+
+properties:
+  disable:
+    description: "Disable mapfs"
+    default: false
+  path:
+    description: "Path to mapfs binary"
+    default: /var/vcap/packages/mapfs/bin/mapfs
