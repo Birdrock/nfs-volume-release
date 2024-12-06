@@ -38,3 +38,15 @@ test-dependencies/openssl-3.4.0.tar.gz:
   size: 18320899
   object_id: e4432149-f956-481c-70c9-e48962c2579c
   sha: sha256:e15dda82fe2fe8139dc2ac21a36d4ca01d5313c75f99f46c4e8a27709b7294bf
+build-deps/meson-1.6.0.tar.gz:
+  size: 2277602
+  object_id: d9d62db0-2c8a-4793-795c-c87dfb123da1
+  sha: sha256:999b65f21c03541cf11365489c1fad22e2418bb0c3d50ca61139f2eec09d5496
+build-deps/ninja-v1.12.1.tar.gz:
+  size: 240524
+  object_id: 6ef4bdc0-fddb-4fa3-54cf-0c8644af63af
+  sha: sha256:b5fba43f9d24c9d3d3aa16be3af1d925f18f73eace71f83d064e1a16c9b15134
+fuse/fuse-3.16.2.tar.gz:
+  size: 14165836
+  object_id: 7c5fb833-6dca-41bb-5e7d-e9c5de0e9db0
+  sha: sha256:f797055d9296b275e981f5f62d4e32e089614fc253d1ef2985851025b8a0ce87
